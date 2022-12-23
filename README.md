@@ -26,6 +26,10 @@ How to use your library (where applicable) - **N/A**
 
 How do you run tests?
 
+pytest-watch
+
 Any tests of note?
 
 Describe any tests that you did not complete, skipped, etc
+
+Submitting now but not finished with the lab yet.
