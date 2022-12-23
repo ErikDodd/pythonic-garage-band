@@ -38,7 +38,8 @@ class Guitarist(Musician):
         return f"My name is {self.name} and I play guitar"
 
     def __repr__(self):
-        pass
+        return f"Guitarist instance. Name = {self.name}"
+
 
 
 class Bassist(Musician):
@@ -46,11 +47,18 @@ class Bassist(Musician):
         return f"My name is {self.name} and I play bass"
 
 
+    def __repr__(self):
+        return f"Bassist instance. Name = {self.name}"
+
+
 
 class Drummer(Musician):
     def __str__(self):
         return f"My name is {self.name} and I play drums"
     pass
+
+    def __repr__(self):
+        return f"Drummer instance. Name = {self.name}"
 
 
 # Band (derived class)
