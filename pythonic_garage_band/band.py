@@ -54,11 +54,6 @@ class Musician:
 
 # derived class
 class Guitarist(Musician):
-
-    def __init__(self, name):
-        self.solo = None
-        self.name = name
-
     def get_instrument(self, instrument="guitar"):
         self.instrument = instrument
         return f"{instrument}"
