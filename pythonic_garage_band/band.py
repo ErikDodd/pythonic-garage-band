@@ -1,23 +1,28 @@
 class Band:
-    def __init__(self, name, members=None):
-        self.members = members or []
+    def __init__(self, name, members=None, play_solos=None):
         self.name = name
-        # Use a loop for the play_solos() to iterate over the list
+        self.members = members or []
+        self.play_solos = play_solos or []
+
 
     # Band instance should have play_solos method that asks each member to play a solo, in the order added to band.
 
 
     def __str__(self):
-        band_strings = [str(band) for band in self.musicians]
+        solos_strings = []
+        for solos in self.members:
+            return solos_strings.append(str(solos))
+
+
 
     # Check tests to see what repr for band needs to include. This is placeholder for now.
     def __repr__(self):
         return f"Band({self.members}"
 
 
-    def play_solo(self, solo=""):
-        self.solo = solo
-        return f""
+    #def play_solo(self, play_solos=None):
+        #self.play_solos = solos or []
+        #return f""
 
 
     # should have a class method to_list which returns a list of previously created Band instances
