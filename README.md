@@ -1,4 +1,4 @@
-# LAB - Class xx
+# LAB - Class 07
 
 ## Project: Pythonic Garage Band
 ## Author: Erik Dodd
@@ -32,4 +32,8 @@ Any tests of note?
 
 Describe any tests that you did not complete, skipped, etc
 
-Submitting now but not finished with the lab yet.
+
+
+## Attributions
+
+A special thank you to Tammy Do. Tammy helped me refactor my code a bit in our tutoring session. She also helped me better understand super() and how to use it in the instance of this lab to have the different types of musicians inheirit name, solo, and instrument.
